@@ -43,6 +43,13 @@ libraries[qtip][download][url] = "https://raw.github.com/bellcom/qTip1/master/1.
 libraries[qtip][directory_name] = "qtip"
 libraries[qtip][destination] = "libraries"
 
+; OS2Web WebPol libraries
+libraries[qtip][download][type] = "get"
+libraries[qtip][download][url] = "http://vadikom.com/files/?file=poshytip/poshytip-1.1.zip"
+libraries[qtip][directory_name] = "poshy_tip"
+libraries[qtip][destination] = "libraries"
+
+
 ; Contrib modules
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-rc1"
@@ -141,13 +148,19 @@ projects[feeds][patch][] = "http://drupal.org/files/feeds-taxonomy-text-format-1
 projects[feeds_xpathparser][subdir] = "contrib"
 projects[feeds_xpathparser][version] = "1.0-beta3"
 
+; OS2Web WebPol modules
+projects[front][subdir] = "contrib"
+projects[calendar][subdir] = "contrib"
+projects[calendar][version] = "7.x-3.0"
+projects[entityreference][subdir] = "contrib"
+projects[computed_field][subdir] = "contrib"
+projects[menu_attributes][subdir] = "contrib"
+projects[prepopulate][subdir] = "contrib"
+projects[jquery_update][subdir] = "contrib"
+projects[poshy_tip][subdir] = "contrib"
+
+
 ; Themes
 
 projects[rubik][version] = "4.0-beta8"
 projects[tao][version] = "3.0-beta4"
-
-
-
-
-
-
