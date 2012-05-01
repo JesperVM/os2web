@@ -45,7 +45,7 @@ libraries[qtip][destination] = "libraries"
 
 ; OS2Web WebPol libraries
 libraries[qtip][download][type] = "get"
-libraries[qtip][download][url] = "http://vadikom.com/files/?file=poshytip/poshytip-1.1.zip"
+libraries[qtip][download][url] = "http://vadikom.com/files/poshytip/poshytip-1.1.zip"
 libraries[qtip][directory_name] = "poshy_tip"
 libraries[qtip][destination] = "libraries"
 
