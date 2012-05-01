@@ -151,6 +151,7 @@ projects[feeds_xpathparser][version] = "1.0-beta3"
 ; OS2Web WebPol modules
 projects[front][subdir] = "contrib"
 projects[calendar][subdir] = "contrib"
+projects[calendar][version] = "3.0"
 projects[entityreference][subdir] = "contrib"
 projects[computed_field][subdir] = "contrib"
 projects[menu_attributes][subdir] = "contrib"
